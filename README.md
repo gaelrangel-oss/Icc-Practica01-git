@@ -9,3 +9,12 @@ Un repositorio local se almacena unicamente en un dispositivo mientras el remoto
 Que se cree una nueva version para cada archivo
 ##¿Que esperan que ocurra cuando ambos modifican exactamente la misma linea?
 Se crean dos verciones del archivo en la misma linea, del archivo modificado
+
+##Comandos observados
+-git status
+-git commit
+-git add
+-git push
+-git pull
+-git fetch
+-nano
