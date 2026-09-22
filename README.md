@@ -34,7 +34,25 @@ A---B--C--D <- README.md
 E--G <-Binario.md
 /
 F--H <-Decimal.md
+##Historial Real
+H--I---   <--Conflicto Binario
+/      \
+D--E--   \   <--Conflicto Decimal
+/      \  \
+A--B--C-L -M    <--Main
+/      /  /
+F--G---  /   <--Conflicto Decimal
+/       /
+J--K---     <--Conflicto Binario
 
+1. ¿En que se parece al dibujo inicial?
+En que se crearon dos ramas mas.
+2. ¿En que es diferente?
+En el nombre de las ramas,y ahora hay dos "merge".
+3. ¿Que partes del historial no habían anticipado?
+Que ibamos a unir las ramas, y que cada archivo no es una rama.
+4. ¿Que entienden ahora que no entendían cuando realizaron el primer dibujo?
+Cada archivo no crea una rama, se puede trabajar en ramas personales sin afectar a la rama main.
 ##Respuestas
 1. ¿Por qué Git rechazo el primer push de Developer B?
 Git rechazó el push porque antes de poder hacer un push se debe estar sincronizado con el repositorio remoto.
