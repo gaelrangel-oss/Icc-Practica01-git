@@ -79,3 +79,39 @@ El texto del cambio del Developer A
 El texto del cambio del Developer B
 4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
 Porque no puede decidir cual tiene prioridad, y da a elegir cual conservar.
+
+##Pregunta reto 19
+¿Que ventaja tiene utilizar el nombre v1.0 para identificar este punto del
+historial en lugar de utilizar solamente el hash del commit?
+Que nos facilita la identificacion del punto del historial.
+
+##Reflexion final
+1. ¿Que información almacena un commit?
+El conjunto de cambios subidos en el repositorio local.
+2. ¿Que diferencia existe entre un repositorio local y un repositorio remoto?
+El local almacena la informacion en el dispositivo, mientras el remoto lo hace en un servidor que depende de git.
+3. ¿Que ocurrió cuando modificaron archivos diferentes?
+Nada, pudimos subir y actualizar los repositorios por que no habia nada que creara un conflicto.
+4. ¿Que ocurrió cuando modificaron la misma región de un archivo?
+Git mando un conflicto por no poder decidir cual de las dos verciones guardar o priorizar.
+5. ¿Que diferencia existe entre commit y push?
+Que el comit lo sube al repositorio local, y el push ya lo sube directamente al repositorio remoto.
+6. ¿Que función tuvo pull durante la practica?
+Descargar/Actualizar los cambios que estaban en el repositorio remoto al local
+7. ¿Por que un push puede ser rechazado aunque no exista un conflicto de contenido?
+Por no tener los cambios subidos de manera correcta en el commit.
+8. ¿Que representa una rama?
+Es una "subdivision" de la rama main en la que se puede trabajar sin afectar el contenido de la rama main
+9. ¿Que indica HEAD?
+La rama en la que se esta trabajando
+10. ¿Que hace merge?
+Unifica los contenidos de las ramas con la rama principal "main"
+11. ¿Por que Git pudo integrar algunos cambios automáticamente y otros no?
+Por la existencia de conflictos en los cambios de los archivos, de esta manera no se podìan actualizar
+12. ¿Que representan los marcadores «««<, ======= y »»»>?
+En un conflicto representan desde donde inicia el conflicto existente y las diferentes versiones de lo que se modifico son representados con los ===== las flechas hacia la derecha representan el final del conflicto
+13. ¿Que ventaja proporciona un tag?
+Facilita el identificar el momento del historial para conocer en que momento estàs
+14. ¿Como cambio su interpretación de los diagramas de historial después de utilizar git log
+Descubrimos que la rama main contiene todos los archivos y que no era una rama por archivo, ademàs de que notamos que las ramas y sus combinaciones son mas visibles asi
+–graph –oneline –all?
