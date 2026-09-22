@@ -45,3 +45,10 @@ Developer A descargó la modificación del Developer B y viceversa.
 4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
 El push rechazado se debio a que el repositorio tenía una modificación que aún no contenia la copia local del Developer B.
 
+##Pregunta
+-¿Realizar un merge implica necesariamente que exista un conflicto?
+No, por que modificamos distintos archivos y distintas lineas, por lo que no se genero un conflicto.
+-También discutan la siguiente afirmación:Un merge no decide que una rama tenga “mayor prioridad” que otra. Intenta integrar ambas historias.
+Si, el merch no decide cual es mas importante, si no que busca juntar los cambios para que sucedan al mismo tiempo, en este caso el merch junto los cambios que realizo cada Developer
+sin decidir la importancia de cada uno.
+
