@@ -2,7 +2,8 @@
 El sistema binario utiliza base 2.
 
 ## Ejemplo--Error A
-Este es el error 2 pero del b
+Este es el error 2 pero del b-Este es el error 2
+
 El numero 42 en binario se escribe como:
 101010
 
