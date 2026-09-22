@@ -6,3 +6,5 @@ El numero 42 en decimal se escribe como:
 42
 ##Cambio 1
 Cambio 1
+##Error A
+
