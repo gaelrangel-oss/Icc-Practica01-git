@@ -49,6 +49,15 @@ El push rechazado se debio a que el repositorio tenía una modificación que aú
 -¿Realizar un merge implica necesariamente que exista un conflicto?
 No, por que modificamos distintos archivos y distintas lineas, por lo que no se genero un conflicto.
 -También discutan la siguiente afirmación:Un merge no decide que una rama tenga “mayor prioridad” que otra. Intenta integrar ambas historias.
-Si, el merch no decide cual es mas importante, si no que busca juntar los cambios para que sucedan al mismo tiempo, en este caso el merch junto los cambios que realizo cada Developer
+Si, el merge no decide cual es mas importante, si no que busca juntar los cambios para que sucedan al mismo tiempo, en este caso el merge junto los cambios que realizo cada Developer
 sin decidir la importancia de cada uno.
 
+##Preguntas reto 15
+1. ¿Que representa HEAD en este momento?
+Representa el lugar donde existe el conflicto.
+2. ¿Que representa el contenido entre «««< y =======?
+El texto del cambio del Developer A
+3. ¿Que representa el contenido entre ======= y »»»>?
+El texto del cambio del Developer B
+4. ¿Por que Git no pudo decidir automáticamente que contenido conservar?
+Porque no puede decidir cual tiene prioridad, y da a elegir cual conservar.
