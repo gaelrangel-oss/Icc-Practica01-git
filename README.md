@@ -34,3 +34,14 @@ A---B--C--D <- README.md
 E--G <-Binario.md
 /
 F--H <-Decimal.md
+
+##Respuestas
+1. ¿Por qué Git rechazo el primer push de Developer B?
+Git rechazó el push porque antes de poder hacer un push se debe estar sincronizado con el repositorio remoto.
+2. ¿Existía un conflicto de contenido?
+Si, porque el Developer B no tenía la modificación en la copia local
+3. ¿Qué ocurrió cuando ejecutaron pull?
+Developer A descargó la modificación del Developer B y viceversa.
+4. ¿Qué diferencia observan entre un push rechazado y un conflicto?
+El push rechazado se debio a que el repositorio tenía una modificación que aún no contenia la copia local del Developer B.
+
