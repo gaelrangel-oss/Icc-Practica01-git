@@ -27,3 +27,10 @@ Se crean dos verciones del archivo en la misma linea, del archivo modificado
 -Developer A debera subir el archivo con "git push"
 -Developer B debera descargar la actualizacion con "git fetch" y "git pull"
 
+##Historial Esperado
+
+A---B--C--D <- README.md
+/
+E--G <-Binario.md
+/
+F--H <-Decimal.md
